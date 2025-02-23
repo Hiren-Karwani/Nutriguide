@@ -1,0 +1,42 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #19376D !important;
+    padding: 0.8rem 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Brand Style */
+#brand {
+    color: gold !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    text-decoration: none;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: lightblue !important;
+}
+
+/* Dropdown Menu Fix */
+.dropdown-menu {
+    background-color: white !important; 
+    border: 1px solid #ddd;
+}
+
+.dropdown-item {
+    color: #19376D !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown-item:hover {
+    background-color: #19376D !important;
+    color: white !important;
+}

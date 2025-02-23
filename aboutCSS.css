@@ -1,0 +1,208 @@
+/* General Body Styling */
+body {
+    text-align: center;
+    line-height: 2rem;
+    background-color: #47A992;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar Styles */
+#brand {
+    color: gold;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #19376D;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-brand {
+    margin-left: 1%;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 60%;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: lightblue;
+}
+
+.dropdown .btn-secondary {
+    background-color: #19376D;
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.dropdown .btn-secondary:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #ddd;
+}
+
+.dropdown-item {
+    color: #19376D;
+    font-family: 'Stylish', sans-serif;
+}
+
+.dropdown-item:hover {
+    background-color: #19376D;
+    color: white;
+}
+
+/* Header Styles */
+h2, h3 {
+    color: white;
+    margin: 6%;
+    text-align: center;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Button Styles */
+.btn {
+    background-color: #19376D;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: green;
+    font-weight: bold;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    margin: 2% 15%;
+    line-height: 2rem;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 2%;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+#name-link {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    margin: 2% 15%;
+    line-height: 2rem;
+}
+
+/* Main Box */
+.main-box {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    body {
+        overflow: auto;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        background-color: #19376D;
+        padding: 10px;
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-brand {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin: 10% 10% 1% 10%;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin: 3% 10%;
+    }
+
+    .redirect-links {
+        margin-top: 25%;
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2600px) {
+    .nav-brand {
+        font-size: 3rem;
+    }
+
+    .nav-links a {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+        margin-top: 7%;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
+    .redirect-links {
+        margin-top: 15%;
+        font-size: 1.5rem;
+        width: 250px;
+        height: 180px;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+    }
+}
